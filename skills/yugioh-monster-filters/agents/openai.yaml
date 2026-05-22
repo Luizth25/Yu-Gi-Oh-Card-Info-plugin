@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yu-Gi-Oh Monster Filters"
+  short_description: "Filter monsters by stats and traits."
+  default_prompt: "Search Yu-Gi-Oh monsters by ATK, DEF, Level, Attribute, Race, or type."

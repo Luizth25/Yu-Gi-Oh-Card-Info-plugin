@@ -1,0 +1,34 @@
+{
+  "name": "yugioh-card-info",
+  "version": "1.0.0",
+  "description": "Yu-Gi-Oh! card search tools and skills powered by the public YGOPRODeck API.",
+  "author": {
+    "name": "Luiz Preto"
+  },
+  "license": "MIT",
+  "keywords": [
+    "yugioh",
+    "yu-gi-oh",
+    "cards",
+    "mcp",
+    "ygoprodeck"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Yu-Gi-Oh! Card Info",
+    "shortDescription": "Search Yu-Gi-Oh! cards from Codex.",
+    "longDescription": "Yu-Gi-Oh! Card Info adds card lookup, monster filters, archetype search, set listings, banlist helpers, and YGOPRODeck database metadata through a local MCP server.",
+    "developerName": "Luiz Preto",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP",
+      "Search"
+    ],
+    "defaultPrompt": [
+      "Find Dragon monsters with ATK above 2500.",
+      "Search cards from the Blue-Eyes archetype.",
+      "Show Yu-Gi-Oh! banlist details."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

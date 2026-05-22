@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yu-Gi-Oh Card Search"
+  short_description: "Find Yu-Gi-Oh cards by name or id."
+  default_prompt: "Use $yugioh-card-search to find Yu-Gi-Oh cards by name, id, type, or language."

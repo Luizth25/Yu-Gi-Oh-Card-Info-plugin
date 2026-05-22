@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yu-Gi-Oh Archetypes and Sets"
+  short_description: "Find cards by archetype, set, format."
+  default_prompt: "Find Yu-Gi-Oh cards by archetype, card set, banlist, or format."

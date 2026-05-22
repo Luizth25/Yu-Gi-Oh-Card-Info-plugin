@@ -1,0 +1,27 @@
+{
+  "name": "yugioh-card-info",
+  "version": "1.0.0",
+  "description": "Yu-Gi-Oh! card information tools powered by the public YGOPRODeck API.",
+  "type": "module",
+  "bin": {
+    "yugioh-card-info": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "yugioh",
+    "yu-gi-oh",
+    "ygoprodeck"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.25.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

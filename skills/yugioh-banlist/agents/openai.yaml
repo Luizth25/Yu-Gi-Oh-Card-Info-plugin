@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yu-Gi-Oh Banlist"
+  short_description: "List and filter current banlist cards."
+  default_prompt: "Use $yugioh-banlist to list current TCG banlist cards by type and status."

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "yugioh": {
+      "command": "node",
+      "args": [
+        "./src/index.js"
+      ]
+    }
+  }
+}
