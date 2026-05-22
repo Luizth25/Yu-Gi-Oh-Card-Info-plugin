@@ -1,10 +1,28 @@
 # Yu-Gi-Oh! Card Info
 
-Yu-Gi-Oh! card information tools for Codex, powered by a local MCP server and the public YGOPRODeck API v7.
+Codex plugin for searching Yu-Gi-Oh! card data through a local MCP server powered by the public YGOPRODeck API v7.
 
-API documentation: https://ygoprodeck.com/api-guide/
+Use it to look up cards, inspect monster stats, search archetypes and sets, check banlist data, and fetch YGOPRODeck database metadata directly from Codex.
 
-## Tools
+## Features
+
+- Search cards by fuzzy name, exact name, card id, type, format, language, and sort order.
+- Filter monsters by ATK, DEF, Level/Rank, Attribute, Race, Link value, and Pendulum Scale.
+- Find cards by archetype, card set, banlist, and game format.
+- List current banlist cards and filter them by status or card type.
+- Fetch random cards, available card sets, and YGOPRODeck database version metadata.
+- Includes Codex skills for natural-language Yu-Gi-Oh! workflows in English and Portuguese.
+
+## Example Prompts
+
+- Find Dragon monsters with ATK above 2500.
+- Search cards from the Blue-Eyes archetype.
+- Show cards currently forbidden in the TCG banlist.
+- List cards from Metal Raiders.
+- Find DARK Warrior monsters with Level 4.
+- Search Yu-Gi-Oh! cards in Portuguese by partial name.
+
+## MCP Tools
 
 - `search_cards`: fuzzy card search with optional filters.
 - `get_card_by_name`: exact card lookup by name.
@@ -28,7 +46,7 @@ This project includes local Codex skills under `skills/`:
 npm install
 ```
 
-## Run
+## Usage
 
 ```bash
 npm start
@@ -53,4 +71,10 @@ Use this server command from an MCP client:
 
 ## Notes
 
-YGOPRODeck asks API consumers to avoid repeatedly hotlinking card images and to store pulled data locally when heavy usage is expected. This MCP returns image URLs as metadata but does not download or cache images.
+- API documentation: https://ygoprodeck.com/api-guide/
+- This plugin returns image URLs as metadata but does not download or cache card images.
+- YGOPRODeck asks API consumers to avoid repeatedly hotlinking card images and to store pulled data locally when heavy usage is expected.
+
+## License
+
+MIT
